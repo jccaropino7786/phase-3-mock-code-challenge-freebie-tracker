@@ -16,6 +16,9 @@ puts "Creating freebies..."
 # * TODO: create freebies! Remember, a freebie belongs to a dev *
 # * and a freebie belongs to a company.                         *
 # ***************************************************************
-# Create freebies Here
+Freebie.create(item_name: "frisbee", value: 500)
+Freebie.create(item_name: "playing cards", value: 1000)
+Freebie.create(item_name: "corkscrew", value: 100)
+Freebie.create(item_name: "comic book", value: 200)
 
 puts "Seeding done!"
